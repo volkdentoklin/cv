@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inputs</title>
+</head>
+</html>
+        <form>
+            <fieldset>
+            <label> <strong>Are you looking for roommates?</strong></label>
+<p>
+            <input type="radio" id="Yes" name="roommate" value="Y">
+            <label for="yes"> YES </label>
+</p>
+<p>
+            <input type="radio" id="no" name="roommate" value="N">
+            <label for="no">NO</label>
+</p>
+<p>
+            <input type="radio" id="maybe" name="roommate" value="M">
+            <label for="maybe">MAYBE</label>
+</p>
+<p>
+            <input type="radio" id="adults" name="roommate" value="A">
+            <label for="adults">ONLY IF THEY ARE ADULTS</label>
+</p>
+<p>
+            <input type="radio" id="sugardaddy" name="roommate" value="S">
+            <label for="sugardaddy">Mainly looking for sugardaddies!</label>
+ </p>
+</fieldset>
+        </form>
+<br>
+<br>
+        <form>
+<fieldset>
+    <label for="When were you born?">When were you born?</label>
+    <p>
+    <input type="date" id="date of birth" name="DOB" 
+    value="2023-01-01"  
+    min="1890-01-01" max= "2023-01-01">
+    </p>
+</fieldset>
+        </form>     
+<br>
+
+<form">
+        <label for="Where were you born?">Where were you born?</label>
+        <br>
+        <select name="Countries" id="Count">Select countries>
+    <optgroup label="Europe">
+        <option>Slovenia</option>
+        <option value="Italy">Italy</option>
+        <option value="France">France</option>
+        <option value="Basque country">Basque country</option>
+    </optgroup>
+    <optgroup label="Asia">
+        <option value="Vietnam">Vietnam</option>
+        <option value="Thailand">Thailand</option>
+        <option value="China">China</option>
+        <option value="Malaysia">Malaysia</option>
+    </optgroup>
+<optgroup label="Oceania and Polinesia">
+    <option value="New Zealand">New Zealand</option>
+    <option value="Samoa">Samoa</option>
+    <option value="Australia">Australia</option>
+    <option value="Papa New Guinea">New Guinea</option>
+</optgroup>
+    </select>
+</form>
+<br>
+<br>
+<img src="Fingers.jpeg" alt="A hand with multiples of fingers" width="40%" height="40%">
+        <form action="How many fingers do you see?">
+            <label for="Fingers">How many fingers do you see?</label>
+            <input type="number" id="fingers" name="fingers"
+            min="1" max="205">
+            <input type="submit" id="sub" name="Submit">
+        </form>
+    <br>
+    <br>
+<label for="File">Upload a picture of you when you were younger</label> 
+<input type="file" id="photo" name="Photo" accpet="image/png, image/jpeg">
+<br>
+<br>
+<br>
+<a href="Index.html" style="color: #009933"><strong>Go back to where you came from </strong></a>
+        <br>
